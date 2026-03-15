@@ -1,6 +1,5 @@
 # movie-recommendation-ml
 Machine learning movie recommendation system using collaborative filtering and cosine similarity implemented in Python.
-# Movie Recommendation System (Machine Learning)
 
 This project implements a simple movie recommendation system using collaborative filtering.
 
