@@ -1,16 +1,32 @@
-# movie-recommendation-ml
-Machine learning movie recommendation system using collaborative filtering and cosine similarity implemented in Python.
+# Movie Recommendation System
 
-This project implements a simple movie recommendation system using collaborative filtering.
+This project implements a simple movie recommendation system using collaborative filtering based on cosine similarity between users.
 
 ## Features
-- User similarity computation
-- Cosine similarity model
-- Movie recommendation logic
+- User-based collaborative filtering
+- Cosine similarity for user comparison
+- Movie recommendation based on similar users
+
+## Dataset
+The dataset contains user ratings for movies.
+
+Columns:
+- userId
+- movieId
+- rating
+
+## Method
+1. Build user–movie rating matrix
+2. Compute cosine similarity between users
+3. Recommend movies liked by similar users
 
 ## Technologies
-Python, pandas, scikit-learn
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
 
-## Files
-train_model.py : training recommendation model
-recommend.py : find similar users
+## How to Run
+
+```bash
+pip install -r requirements.txt
